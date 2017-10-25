@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.1">
+    <Name>MultiCompanyOTRS</Name>
+    <Version>5.0.0</Version>
+    <Vendor>Complemento [Enterprise]</Vendor>
+    <PackageRequired Version="5.x.x">UserEnv</PackageRequired>
+    <URL>http://www.complemento.net.br/</URL>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Description Lang="en">Now you can have a multi company OTRS Enviroment, sharing the same system but with different backends of customers</Description>
+    <Description Lang="en">Tenha diferente empresas realizando atendimento no mesmo OTRS, separando as bases de clientes</Description>
+    <Framework>5.0.x</Framework>
+    <Filelist>
+		<File Location="Custom/MultiCompanyOTRS.sopm" Permission="644"></File>
+		<File Location="Custom/Kernel/System/CustomerCompany.pm" Permission="644"></File>
+		<File Location="Custom/Kernel/System/CustomerUser.pm" Permission="644"></File>
+    </Filelist>
+</otrs_package>
